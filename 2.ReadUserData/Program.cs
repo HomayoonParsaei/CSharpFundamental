@@ -20,8 +20,8 @@
             Console.WriteLine("What is your ID number?");
             String IDNumber = Console.ReadLine();
             //Output
-            Console.WriteLine($"Your name is {FirstName} {LastName} and you are {Age} years old.");
-            Console.WriteLine($"Your phone number is: {PhoneNUmber} and your ID number is: {IDNumber}.");
+            Console.WriteLine($"Your name is {FirstName} {LastName} and you are {Age} years old.\nYour phone number is: {PhoneNUmber} and your ID number is: {IDNumber}.");
+            
         }
     }
 }
