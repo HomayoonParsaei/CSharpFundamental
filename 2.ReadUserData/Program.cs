@@ -7,10 +7,10 @@
             //Read first name
             Console.WriteLine("What is your first name ?");
             String FirstName = Console.ReadLine();
-            //Read first name
+            //Read last name
             Console.WriteLine("What is your last name ?");
             String LastName = Console.ReadLine();
-            //Read Age
+            //Read age
             Console.WriteLine("How old are you ?");
             String  Age = Console.ReadLine();
             //Read phone number
