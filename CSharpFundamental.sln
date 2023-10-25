@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.ReadUserData", "2.ReadUse
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Git", "3.Git\3.Git.csproj", "{8338FBD4-EB97-4540-A816-F123E4CA1CF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.ConsoleMethodAndProperty", "4.ConsoleMethodAndProperty\4.ConsoleMethodAndProperty.csproj", "{9CB62000-3338-4021-8B61-A4108A247E24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8338FBD4-EB97-4540-A816-F123E4CA1CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8338FBD4-EB97-4540-A816-F123E4CA1CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8338FBD4-EB97-4540-A816-F123E4CA1CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB62000-3338-4021-8B61-A4108A247E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB62000-3338-4021-8B61-A4108A247E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB62000-3338-4021-8B61-A4108A247E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB62000-3338-4021-8B61-A4108A247E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
