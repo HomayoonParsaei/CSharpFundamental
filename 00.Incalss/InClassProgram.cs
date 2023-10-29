@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.Design;
+﻿using Microsoft.VisualBasic;
+using System.ComponentModel.Design;
+using System.Globalization;
 
 namespace _00.Incalss
 {
@@ -40,22 +42,31 @@ namespace _00.Incalss
         {
             return number1 * number2 * number3;
         }
-       
+       //Devider
+       static void ShowDevider()
+        {
+            Console.WriteLine("************Devider***********");
+        }
+
+        static void ShowMessage(string msg)
+        {
+            Console.WriteLine(msg);
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine(Add(1, 2));
-            Console.WriteLine(Add(1, 2, 3));
-            Console.WriteLine(Multi(3, 5, 7));
+            ShowMessage("Hi");
+           // Console.WriteLine(Add(1, 2));
+           // Console.WriteLine(Add(1, 2, 3));
+           // Console.WriteLine(Multi(3, 5, 7));
 
-
+            //Read and converte number
             Console.WriteLine("Enter first number");
             int firstNumber = int.Parse(Console.ReadLine());
-
             Console.WriteLine("Enter second number");
             int secondNumber = int.Parse(Console.ReadLine());
-
             Console.WriteLine("Enter third number");
             int thirdNumber = int.Parse(Console.ReadLine());
+            //Resualt
             Console.WriteLine(Multi(firstNumber, secondNumber, thirdNumber));
         }
     }
