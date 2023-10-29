@@ -4,6 +4,7 @@ using System.Globalization;
 
 namespace _00.Incalss
 {
+    //In class test
     public class Person
     {
         public int Age { get; set; }
@@ -11,6 +12,7 @@ namespace _00.Incalss
 
 
 
+    //In class test
     internal class InClassProgram
     {
         public bool CheckMobileIsValid(string mobile)
@@ -43,7 +45,12 @@ namespace _00.Incalss
             return number1 * number2 * number3;
         }
        //Devider
-       static void ShowDevider()
+        public static int MultiStr(string number1, string number2, string number3)
+        {
+            return int.Parse(number1) * int.Parse(number2)* int.Parse(number3);
+        }
+
+        static void ShowDevider()
         {
             Console.WriteLine("************Devider***********");
         }
@@ -52,7 +59,24 @@ namespace _00.Incalss
         {
             Console.WriteLine(msg);
         }
-        static void Main(string[] args)
+      
+  
+ /*
+        public int Multi2(string number1, string number2, string number3)
+        {
+            
+            for (int i = 1; i < 4; i++)
+            {
+                Console.WriteLine("Enter number" + i);
+                int num[i] = int.Parse(Console.ReadLine());
+            }
+
+            return num[1] * num[2] * num[3];
+        }
+ */
+
+
+    static void Main(string[] args)
         {
             ShowMessage("Hi");
            // Console.WriteLine(Add(1, 2));
@@ -68,6 +92,18 @@ namespace _00.Incalss
             int thirdNumber = int.Parse(Console.ReadLine());
             //Resualt
             Console.WriteLine(Multi(firstNumber, secondNumber, thirdNumber));
+
+            //Use another method
+           
+            Console.WriteLine("Enter first number");
+            string firstNumberStr =Console.ReadLine();
+            Console.WriteLine("Enter second number");
+            string secondNumberStr =Console.ReadLine();
+            Console.WriteLine("Enter third number");
+            string thirdNumberStr = Console.ReadLine();
+
+
+            Console.WriteLine(MultiStr(firstNumberStr, secondNumberStr, thirdNumberStr));
         }
     }
 }
