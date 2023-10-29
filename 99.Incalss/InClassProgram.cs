@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.Design;
 
-namespace _99.Incalss
+namespace _00.Incalss
 {
     public class Person
     {

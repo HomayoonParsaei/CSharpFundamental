@@ -1,4 +1,4 @@
-﻿namespace _1.HelloWorld
+﻿namespace _01.HelloWorld
 {
     internal class Program
     {
