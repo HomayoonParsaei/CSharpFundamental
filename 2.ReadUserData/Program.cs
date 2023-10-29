@@ -1,4 +1,4 @@
-﻿namespace _2.ReadUserData
+﻿namespace _02.ReadUserData
 {
     internal class Program
     {
@@ -6,22 +6,22 @@
         {
             //Read first name
             Console.WriteLine("What is your first name ?");
-            String FirstName = Console.ReadLine();
+            string FirstName = Console.ReadLine();
             //Read last name
             Console.WriteLine("What is your last name ?");
-            String LastName = Console.ReadLine();
+            string LastName = Console.ReadLine();
             //Read age
             Console.WriteLine("How old are you ?");
-            String  Age = Console.ReadLine();
+            string Age = Console.ReadLine();
             //Read phone number
             Console.WriteLine("What is your phone number?");
-            String PhoneNUmber = Console.ReadLine();
+            string PhoneNUmber = Console.ReadLine();
             //Read ID number
             Console.WriteLine("What is your ID number?");
-            String IDNumber = Console.ReadLine();
+            string IDNumber = Console.ReadLine();
             //Output
             Console.WriteLine($"Your name is {FirstName} {LastName} and you are {Age} years old.\nYour phone number is: {PhoneNUmber} and your ID number is: {IDNumber}.");
-            
+
         }
     }
 }

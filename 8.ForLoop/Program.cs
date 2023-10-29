@@ -1,4 +1,4 @@
-﻿namespace _8.ForLoop
+﻿namespace _08.ForLoop
 {
     internal class Program
     {

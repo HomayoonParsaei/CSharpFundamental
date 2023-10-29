@@ -1,4 +1,4 @@
-﻿namespace _6.ConditionsAndIfStatements
+﻿namespace _06.ConditionsAndIfStatements
 {
     internal class Program
     {
@@ -38,15 +38,15 @@
              }
             */
             Console.WriteLine("Please enter your mobile number:(+98000000000)");
-            String MobileNumber = Console.ReadLine();
+            string MobileNumber = Console.ReadLine();
 
             if (!string.IsNullOrEmpty(MobileNumber))
             {
-                String TrimedPhoneNumber = MobileNumber.Trim();
-                String FirstThreeCharecters = TrimedPhoneNumber.Substring(0, 3);
+                string TrimedPhoneNumber = MobileNumber.Trim();
+                string FirstThreeCharecters = TrimedPhoneNumber.Substring(0, 3);
 
                 if (FirstThreeCharecters == "+98")
-                { 
+                {
                     Console.Write($"Your country code is {FirstThreeCharecters} .\n");
                 }
                 else

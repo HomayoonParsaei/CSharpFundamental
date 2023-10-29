@@ -1,4 +1,4 @@
-﻿namespace _3.Git
+﻿namespace _03.Git
 {
     internal class Program
     {

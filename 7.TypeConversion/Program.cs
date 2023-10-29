@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualBasic;
 
-namespace _7.TypeConversion
+namespace _07.TypeConversion
 {
     internal class Program
     {
@@ -15,7 +15,7 @@ namespace _7.TypeConversion
             //age=(int) y; ????
 
             Console.WriteLine("Please Enter your age");
-            String strAge = Console.ReadLine();
+            string strAge = Console.ReadLine();
             if (!string.IsNullOrEmpty(strAge))
             {
                 int Age = int.Parse(strAge);
@@ -28,7 +28,7 @@ namespace _7.TypeConversion
             {
                 Console.WriteLine("Please enter the phone number");
             }
-          
+
 
         }
     }
