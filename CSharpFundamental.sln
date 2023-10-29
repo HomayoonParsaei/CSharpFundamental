@@ -3,23 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.HelloWorld", "1.HelloWorld\01.HelloWorld.csproj", "{30F50E81-0730-4019-83E7-313349B4CB10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.HelloWorld", "01.HelloWorld\01.HelloWorld.csproj", "{30F50E81-0730-4019-83E7-313349B4CB10}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.ReadUserData", "2.ReadUserData\02.ReadUserData.csproj", "{0BEA2B20-315C-472D-B07F-19D1ECD600EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.ReadUserData", "02.ReadUserData\02.ReadUserData.csproj", "{0BEA2B20-315C-472D-B07F-19D1ECD600EE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Git", "3.Git\03.Git.csproj", "{8338FBD4-EB97-4540-A816-F123E4CA1CF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.Git", "03.Git\03.Git.csproj", "{8338FBD4-EB97-4540-A816-F123E4CA1CF9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.ConsoleAttributes", "4.ConsoleMethodAndProperty\04.ConsoleAttributes.csproj", "{9CB62000-3338-4021-8B61-A4108A247E24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04.ConsoleAttributes", "04.ConsoleMethodAndProperty\04.ConsoleAttributes.csproj", "{9CB62000-3338-4021-8B61-A4108A247E24}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.StringMethodAndProperty", "5.StringMethodAndProperty\05.StringMethodAndProperty.csproj", "{40D5B053-D8CF-42E6-A201-FB6C30F5EF11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05.StringMethodAndProperty", "05.StringMethodAndProperty\05.StringMethodAndProperty.csproj", "{40D5B053-D8CF-42E6-A201-FB6C30F5EF11}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.ConditionsAndIfStatements", "6.ConditionsAndIfStatements\06.ConditionsAndIfStatements.csproj", "{6665BD0F-3C57-4EC0-9B6E-BAFA0C6E3E8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.ConditionsAndIfStatements", "06.ConditionsAndIfStatements\06.ConditionsAndIfStatements.csproj", "{6665BD0F-3C57-4EC0-9B6E-BAFA0C6E3E8A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.TypeConversion", "7.TypeConversion\07.TypeConversion.csproj", "{0858B2F1-76B4-4AC5-8E99-5A29CC561B14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.TypeConversion", "07.TypeConversion\07.TypeConversion.csproj", "{0858B2F1-76B4-4AC5-8E99-5A29CC561B14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.ForLoop", "8.ForLoop\08.ForLoop.csproj", "{E6BFD885-DC37-4AD5-ACDF-1584819A1448}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.ForLoop", "08.ForLoop\08.ForLoop.csproj", "{E6BFD885-DC37-4AD5-ACDF-1584819A1448}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00.InClass", "99.Incalss\00.InClass.csproj", "{E670EC6C-FB31-4283-803B-6D9E135784C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00.InClass", "00.Incalss\00.InClass.csproj", "{E670EC6C-FB31-4283-803B-6D9E135784C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.VarAndDefaultValue", "09.VarAndDefaultValue\09.VarAndDefaultValue.csproj", "{06B11A7A-2930-4580-8721-6700332569DC}"
 EndProject
