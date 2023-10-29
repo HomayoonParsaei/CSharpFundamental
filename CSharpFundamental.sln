@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.HelloWorld", "1.HelloWorld\1.HelloWorld.csproj", "{30F50E81-0730-4019-83E7-313349B4CB10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.HelloWorld", "1.HelloWorld\1.HelloWorld.csproj", "{30F50E81-0730-4019-83E7-313349B4CB10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.ReadUserData", "2.ReadUserData\2.ReadUserData.csproj", "{0BEA2B20-315C-472D-B07F-19D1ECD600EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2.ReadUserData", "2.ReadUserData\2.ReadUserData.csproj", "{0BEA2B20-315C-472D-B07F-19D1ECD600EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Git", "3.Git\3.Git.csproj", "{8338FBD4-EB97-4540-A816-F123E4CA1CF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3.Git", "3.Git\3.Git.csproj", "{8338FBD4-EB97-4540-A816-F123E4CA1CF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.ConsoleAttributes", "4.ConsoleMethodAndProperty\4.ConsoleAttributes.csproj", "{9CB62000-3338-4021-8B61-A4108A247E24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4.ConsoleAttributes", "4.ConsoleMethodAndProperty\4.ConsoleAttributes.csproj", "{9CB62000-3338-4021-8B61-A4108A247E24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.StringMethodAndProperty", "5.StringMethodAndProperty\5.StringMethodAndProperty.csproj", "{40D5B053-D8CF-42E6-A201-FB6C30F5EF11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5.StringMethodAndProperty", "5.StringMethodAndProperty\5.StringMethodAndProperty.csproj", "{40D5B053-D8CF-42E6-A201-FB6C30F5EF11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.ConditionsAndIfStatements", "6.ConditionsAndIfStatements\6.ConditionsAndIfStatements.csproj", "{6665BD0F-3C57-4EC0-9B6E-BAFA0C6E3E8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.TypeConversion", "7.TypeConversion\7.TypeConversion.csproj", "{0858B2F1-76B4-4AC5-8E99-5A29CC561B14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{40D5B053-D8CF-42E6-A201-FB6C30F5EF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40D5B053-D8CF-42E6-A201-FB6C30F5EF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40D5B053-D8CF-42E6-A201-FB6C30F5EF11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6665BD0F-3C57-4EC0-9B6E-BAFA0C6E3E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6665BD0F-3C57-4EC0-9B6E-BAFA0C6E3E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6665BD0F-3C57-4EC0-9B6E-BAFA0C6E3E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6665BD0F-3C57-4EC0-9B6E-BAFA0C6E3E8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0858B2F1-76B4-4AC5-8E99-5A29CC561B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0858B2F1-76B4-4AC5-8E99-5A29CC561B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0858B2F1-76B4-4AC5-8E99-5A29CC561B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0858B2F1-76B4-4AC5-8E99-5A29CC561B14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
