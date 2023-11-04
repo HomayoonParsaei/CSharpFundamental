@@ -14,6 +14,18 @@
         {
             return number1 * number2 * number3;
         }
+
+        static void ShowMessage(string msg)
+        {
+            Console.WriteLine(msg);
+        }
+        //Devider ???
+        static void ShowDevider()
+        {
+            Console.WriteLine("************Devider***********");
+        }
+
+
         static void Main(string[] args)
         {
             Console.WriteLine(Add(1, 2));
@@ -33,3 +45,7 @@
         }
     }
 }
+
+//Method Overload
+//Method Signutre
+//Public static

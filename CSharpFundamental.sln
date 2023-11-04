@@ -17,13 +17,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06.ConditionsAndIfStatement
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07.TypeConversion", "07.TypeConversion\07.TypeConversion.csproj", "{0858B2F1-76B4-4AC5-8E99-5A29CC561B14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.ForLoop", "08.ForLoop\08.ForLoop.csproj", "{E6BFD885-DC37-4AD5-ACDF-1584819A1448}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.ForLoop", "08.ForLoop\08.ForLoop.csproj", "{E6BFD885-DC37-4AD5-ACDF-1584819A1448}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00.InClass", "00.Incalss\00.InClass.csproj", "{E670EC6C-FB31-4283-803B-6D9E135784C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00.InClass", "00.Incalss\00.InClass.csproj", "{E670EC6C-FB31-4283-803B-6D9E135784C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.VarAndDefaultValue", "09.VarAndDefaultValue\09.VarAndDefaultValue.csproj", "{06B11A7A-2930-4580-8721-6700332569DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09.VarAndDefaultValue", "09.VarAndDefaultValue\09.VarAndDefaultValue.csproj", "{06B11A7A-2930-4580-8721-6700332569DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10.Function", "10.Function\10.Function.csproj", "{CEE67467-2F10-4664-8B80-92D2E4D0B29E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10.Function", "10.Function\10.Function.csproj", "{CEE67467-2F10-4664-8B80-92D2E4D0B29E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11.Loops", "11.Array\11.Loops.csproj", "{94A7FB8D-D063-4593-8636-8DF7FB0863D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12.Array", "12.Array\12.Array.csproj", "{05B63105-16F5-48DE-B1BA-C4C0515667E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13.BreakAndContinue", "13.BreakAndContinue\13.BreakAndContinue.csproj", "{FEB1515A-2E90-422A-BB6F-210466A6B79C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.Switch", "14.Switch\14.Switch.csproj", "{72F3412C-594A-44AD-82D3-180632D61BBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15.IsNumber", "15.IsNumber\15.IsNumber.csproj", "{BD68B79B-7500-4257-951C-F620DF4B685B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +85,26 @@ Global
 		{CEE67467-2F10-4664-8B80-92D2E4D0B29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEE67467-2F10-4664-8B80-92D2E4D0B29E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEE67467-2F10-4664-8B80-92D2E4D0B29E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A7FB8D-D063-4593-8636-8DF7FB0863D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A7FB8D-D063-4593-8636-8DF7FB0863D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A7FB8D-D063-4593-8636-8DF7FB0863D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A7FB8D-D063-4593-8636-8DF7FB0863D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05B63105-16F5-48DE-B1BA-C4C0515667E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05B63105-16F5-48DE-B1BA-C4C0515667E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05B63105-16F5-48DE-B1BA-C4C0515667E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05B63105-16F5-48DE-B1BA-C4C0515667E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB1515A-2E90-422A-BB6F-210466A6B79C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB1515A-2E90-422A-BB6F-210466A6B79C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB1515A-2E90-422A-BB6F-210466A6B79C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB1515A-2E90-422A-BB6F-210466A6B79C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F3412C-594A-44AD-82D3-180632D61BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F3412C-594A-44AD-82D3-180632D61BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F3412C-594A-44AD-82D3-180632D61BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F3412C-594A-44AD-82D3-180632D61BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD68B79B-7500-4257-951C-F620DF4B685B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD68B79B-7500-4257-951C-F620DF4B685B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD68B79B-7500-4257-951C-F620DF4B685B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD68B79B-7500-4257-951C-F620DF4B685B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
