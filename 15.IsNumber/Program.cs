@@ -6,16 +6,15 @@ namespace _15.IsNumber
     {
         static void Main(String[] args)
         {
-           //int n;
+            //int n;
             //bool isNumeric = int.TryParse("123", out n);
-           // Update As of C# 7:
 
+            // Update As of C# 7:
             var isNumeric = int.TryParse("123", out int n);
             Console.WriteLine($"{isNumeric}\n{n}");
 
 
             //#or if you don't need the number you can discard the out parameter
-
             //var isNumeric = int.TryParse("123", out _);
         }
     }
