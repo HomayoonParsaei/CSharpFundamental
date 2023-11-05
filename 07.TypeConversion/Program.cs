@@ -31,6 +31,11 @@ namespace _07.TypeConversion
             }
 
 
+            int userName=123;
+            string userNameString = userName.ToString();
+            Console.WriteLine("userNameString");
+
+
         }
     }
 }
