@@ -33,11 +33,24 @@ namespace _00.Incalss
 
         }
 
+
+        
+
         static void Main(string[] args)
         {
             Console.WriteLine("**********************");
-            FibonacciRecursive(10);
+            FibonacciRecursive( 10);
             Console.WriteLine("**********************");
+            
+            int numberInInt=100;
+            string numberInString = numberInInt.ToString();
+
+            int numberToInt= int.Parse(numberInString);
+            
+            
+
+               
+
         }
     }
 }
