@@ -1,6 +1,7 @@
 ﻿//07.TypeConversion
-
-
+// #nullable disable
+// string?
+// nullable ???
 
 using Microsoft.VisualBasic;
 using System.ComponentModel.Design;
