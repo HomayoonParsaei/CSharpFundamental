@@ -39,6 +39,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16.Method", "16.Method\16.M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.DoWhile", "18.DoWhile\18.DoWhile.csproj", "{C9A57415-02FA-4628-828F-9D6B45520258}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.ExceptionsTryCatch", "19.ExceptionsTryCatch\19.ExceptionsTryCatch.csproj", "{D6DB0837-847F-4AFE-AF77-0035B9363286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20.RecursiveMethods", "20.RecursiveMethods\20.RecursiveMethods.csproj", "{4279D0DF-28C6-4585-96BB-F58250365AAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{C9A57415-02FA-4628-828F-9D6B45520258}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9A57415-02FA-4628-828F-9D6B45520258}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9A57415-02FA-4628-828F-9D6B45520258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6DB0837-847F-4AFE-AF77-0035B9363286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DB0837-847F-4AFE-AF77-0035B9363286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6DB0837-847F-4AFE-AF77-0035B9363286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6DB0837-847F-4AFE-AF77-0035B9363286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4279D0DF-28C6-4585-96BB-F58250365AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4279D0DF-28C6-4585-96BB-F58250365AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4279D0DF-28C6-4585-96BB-F58250365AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4279D0DF-28C6-4585-96BB-F58250365AAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

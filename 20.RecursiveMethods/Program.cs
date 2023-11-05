@@ -1,23 +1,8 @@
-﻿//07.TypeConversion
-// #nullable disable
-// string?
-// nullable ???
-
-using Microsoft.VisualBasic;
-using System.ComponentModel.Design;
-using System.Globalization;
-using System.Linq.Expressions;
-
-namespace _00.Incalss
+﻿namespace _20.RecursiveMethods
 {
-
-
-
-
-    class InClassProgram
+    internal class Program
     {
 
-        //In class test
         public static void FibonacciRecursive(int len)
         {
             FibonacciRecursiveTemp(0, 1, 1, len);
@@ -33,6 +18,7 @@ namespace _00.Incalss
 
         }
 
+
         static void Main(string[] args)
         {
             Console.WriteLine("**********************");
@@ -41,4 +27,3 @@ namespace _00.Incalss
         }
     }
 }
-
