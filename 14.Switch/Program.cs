@@ -34,6 +34,36 @@ namespace _14.Switch
                 {
                     Console.WriteLine($"You are {ageAsInt} years old,you are too old to be alive.");
                 }
+                Console.WriteLine("\nSecond If\n");
+                String ageDescription = default;
+
+                if (ageAsInt <= 16)
+                {
+                    ageDescription = "child";
+                }
+                else if (ageAsInt > 16 && ageAsInt <= 30)
+                {
+                    ageDescription = "young adult";
+                }
+                else if (ageAsInt > 30 && ageAsInt < 45)
+                {
+                    ageDescription = "middle-age adult";
+                }
+                else if (ageAsInt > 45 && ageAsInt <= 100)
+                {
+                    ageDescription = "old-age adult";
+                }
+
+                if (!string.IsNullOrEmpty(ageDescription))
+                {
+                    Console.WriteLine($"You are {ageAsInt} years old and identified as {ageDescription}.");
+                }
+                else
+                {
+                    Console.WriteLine($"You are {ageAsInt} years old,you are too old to be alive.");
+                }
+
+                
 
                 Console.WriteLine("\nWith Switch/Case\n");
 
@@ -42,7 +72,7 @@ namespace _14.Switch
                     case <= 16:
                         Console.WriteLine($"You are {ageAsInt} years old and identified as child.");
                         break;
-                    case > 17 and <= 30 :
+                    case > 17 and <= 30:
                         Console.WriteLine($"You are {ageAsInt} years old and identified as young adult.");
                         break;
                     case > 30 and <= 45:
