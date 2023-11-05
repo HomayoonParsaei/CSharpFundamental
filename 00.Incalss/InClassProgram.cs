@@ -25,12 +25,8 @@ namespace _00.Incalss
                     Console.WriteLine("Enter your gender Male(M)/Female(F) please :");
                     string genderStr = Console.ReadLine();
 
-                    Console.WriteLine("How old are you?");
-                    int age = int.Parse(Console.ReadLine());
 
 
-                    //genderIsMale = (!string.IsNullOrEmpty(genderStr) && (genderStr== "Male" || genderStr == "male" || genderStr == "M" || genderStr == "m")) ?true: false;
-                    bool genderIsMale = (!string.IsNullOrEmpty(genderStr) && (genderStr.ToLower() == "male" || genderStr.ToLower() == "m")) ? true : false;
 
                     if (genderIsMale)
                         Console.WriteLine($"your gender is Male(M) and you are {age} years old.");
